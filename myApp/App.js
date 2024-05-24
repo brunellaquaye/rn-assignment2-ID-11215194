@@ -5,7 +5,7 @@ function HomeScreen() {
   const insets = useSafeAreaInsets();
   return (
     <View style={{flex: 1, paddingTop: insets.top , backgroundColor:"yellow"}}>
-      
+      <Text style={{ fontSize: 24 }}>My name is <Text style={{fontWeight: "bold"}}>Brunella Quaye</Text></Text>
     </View>
   );
 }
